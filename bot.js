@@ -13,7 +13,6 @@ client.on('message', message => {
     if (message.content === 'Hippity Hoppity') {
     	message.reply('Women are property');
   	}
-  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
