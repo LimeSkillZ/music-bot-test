@@ -10,9 +10,8 @@ client.on('message', message => {
     	message.reply('pong');
 
 client.on('message', message => {
-    if (message.content === 'Hippity Hoppity') {
-    	message.reply('Women are property');
-  	}
+    if (message.content === 'hippity hoppity') {
+    	message.reply('women are property');
 });
 
 // THIS  MUST  BE  THIS  WAY
